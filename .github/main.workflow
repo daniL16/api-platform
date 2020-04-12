@@ -3,7 +3,7 @@ workflow "check-and-release" {
     resolves = "style"
 }
 
-workflow "gestPR" {
+workflow "pullReq" {
     on = "pull-request"
     resolves = "pr"
 }
