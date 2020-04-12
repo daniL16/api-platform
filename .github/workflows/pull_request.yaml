@@ -8,7 +8,7 @@ jobs:
       name: Notify PR is open
       steps:
         - name: Notify to RocketChat
-          uses: daniL16/api-platform/.github/actions/pull_request
+          uses: daniL16/api-platform/.github/actions/pull_request@master
           with:
             args: --data $POST_DATA  https://chat.bulevip.com/hooks/$CHANNEL
           env:
