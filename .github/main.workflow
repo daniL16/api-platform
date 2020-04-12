@@ -18,5 +18,5 @@ action "style" {
 }
 
 action "pr" {
-    uses = "daniL16/api-platform/.github/actions/pull_request"
+    uses = "daniL16/api-platform/.github/actions/pull_request@master"
 }
